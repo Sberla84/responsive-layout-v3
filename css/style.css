@@ -88,6 +88,10 @@ a {
 @media(max-width:1023px) and (min-width: 768px) {
 
 
+	body {
+		margin: auto;
+		width: 90%;
+	}
 	.main-nav ul {
 		text-align: center;
 	}
@@ -151,6 +155,14 @@ a {
 
 @media(min-width: 1024px) {
 
+	body {
+		margin: auto;
+		width: 80%;
+		max-width: 1150px;
+	}
+	.nav {
+		margin: 0px 7px;
+	}
 	.name {
 		float: left;
 	}
