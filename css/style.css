@@ -71,6 +71,62 @@ a {
 	float: right;
 }
 
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media(max-width:1023px) and (min-width: 768px) {
+	.main-nav ul {
+		text-align: center;
+	}
+	.main-nav ul li {
+		display: inline-block;
+	}
+	.profile-img {
+		max-width: 40%;
+		float: right;
+	}
+	.my-desc {
+		padding: 10px;
+		margin-left: 0px;
+		text-align: left;
+	}
+
+	.description {
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 50px;
+	}
+
+	.container,
+	.contacts {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.col {
+		margin-bottom: 50px;
+		float: right;
+	}
+
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calculator {
+		width: 50%;
+	}
+
+}
+
+@media(min-width: 1024px) {
+
+
+
+
+}
+
 /**-----------------------------FLOAT CLEARFIX ------------------------
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
