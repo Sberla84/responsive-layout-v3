@@ -12,9 +12,9 @@ body {
 }
 
 p {
+	padding: 10px;
 	font-size: 1.1em;
 	text-align: center;
-	margin: 20px;
 }
 
 img {
@@ -48,7 +48,8 @@ a {
 }
 
 .container {
-	Margin-bottom: 150px;
+	width: 100%;
+	overflow: auto;
 }
 
 .bottom-menu {
@@ -71,15 +72,93 @@ a {
 	float: right;
 }
 
+
+
 /* ================================= 
   Media Queries
 ==================================== */
+@media(max-width:767px) {
 
+	.bottom-menu-tab {
+		display: none;
+	}
+
+
+} 
 @media(max-width:1023px) and (min-width: 768px) {
+
+
 	.main-nav ul {
 		text-align: center;
 	}
 	.main-nav ul li {
+		display: inline-block;
+	}
+	.profile-img {
+		max-width: 40%;
+		float: right;
+	}
+	.my-desc {
+		padding-right: 20px;
+		margin: 0px;
+		text-align: left;
+	}
+
+	.description {
+		margin-bottom: 50px;
+	}
+	.description_2 {
+		padding: 0px 35px;
+	}
+	.col {
+		float: left;
+		padding-bottom: 50px;
+	}
+
+	.marketing,
+	.search,
+	.travel,
+	.map,
+	.photo,
+	.calculator {
+		width: 50%;
+	}
+
+	.bottom-menu {
+		display: none;
+	}
+
+	.main-bottom {
+		float: left;
+	}
+	.main-nav-bottom {
+		float:right;
+	}
+	.button-bottom {
+		display: inline-block;
+		padding: 10px;
+	}
+	.bottom-menu-tab {
+		margin: 0px 25px;
+		margin-bottom: 50px;
+		border-top: solid 1px lightgrey;
+		Padding-top: 20px;
+		padding-left: 0px;
+	}
+
+}
+
+
+@media(min-width: 1024px) {
+
+	.name {
+		float: left;
+	}
+	.main-nav {
+		float: right;
+	}
+
+	.button {
 		display: inline-block;
 	}
 	.profile-img {
@@ -93,20 +172,17 @@ a {
 	}
 
 	.description {
-		margin-right: 5%;
-		margin-left: 5%;
 		margin-bottom: 50px;
 	}
 
 	.container,
 	.contacts {
-		width: 90%;
 		margin: 0 auto;
 	}
 
 	.col {
 		margin-bottom: 50px;
-		float: right;
+		float: left;
 	}
 
 	.marketing,
@@ -115,17 +191,36 @@ a {
 	.map,
 	.photo,
 	.calculator {
-		width: 50%;
+		width: 33%;
 	}
 
+	.bottom-menu {
+		display: none;
+	}
+
+	.main-bottom {
+		float: left;
+	}
+	.main-nav-bottom {
+		float:right;
+	}
+	.button-bottom {
+		display: inline-block;
+		padding: 10px;
+	}
+	.bottom-menu-tab {
+		margin-bottom: 50px;
+		border-top: solid 1px lightgrey;
+		Padding-top: 20px;
+		padding-left: 0px;
+	}
+	
+
+
 }
 
-@media(min-width: 1024px) {
 
 
-
-
-}
 
 /**-----------------------------FLOAT CLEARFIX ------------------------
  * For modern browsers
@@ -136,6 +231,7 @@ a {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+ 
  .cf:before,
  .cf:after {
 	 content: " "; /* 1 */
@@ -153,3 +249,6 @@ a {
  .cf {
 	 *zoom: 1;
  }
+
+
+ 
