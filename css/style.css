@@ -6,19 +6,23 @@
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
 	color: #3a3a3a;
 }
 
 p {
-	font-size: 1em;
+	font-size: 1.1em;
 	text-align: center;
+	margin: 20px;
 }
 
 img {
 	max-width: 100%;
-	margin: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    padding: 10px;
 }
 
 h1,
@@ -29,4 +33,31 @@ h3 {
 
 a {
 	text-decoration: none;
+}
+
+.main-nav ul {
+	padding-left: 0px;
+    list-style-type: none;
+}
+
+.button a {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 10px;
+	display: block;
+}
+
+.container {
+	Margin-bottom: 150px;
+}
+
+.bottom-menu {
+	border-top: solid 2px grey;
+	margin: 50px 20px 30px 20px;
+	Padding-top: 50px;
+}
+
+.bottom-menu li {
+	list-style-type: none;
+	float: left;
 }
