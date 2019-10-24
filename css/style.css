@@ -107,6 +107,7 @@ a {
 		padding: 5px;
 		background-color: #ABE5F5;
 		margin-right: 0px;
+		margin-bottom: 30px;
 	}
 	.main-nav ul {
 		text-align: center;
@@ -183,7 +184,7 @@ a {
 		max-width: 1150px;
 	}
 	.nav {
-		margin: 0px 7px;
+		margin: 0px 7px 30px 7px;
 	}
 	.name {
 		float: left;
