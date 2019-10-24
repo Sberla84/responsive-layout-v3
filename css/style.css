@@ -164,7 +164,7 @@ a {
 	.bottom-menu-tab {
 		margin: 0px 25px;
 		margin-bottom: 50px;
-		border-top: solid 1px lightgrey;
+		border-top: solid 1px grey;
 		Padding-top: 20px;
 		padding-left: 0px;
 	}
@@ -245,7 +245,7 @@ a {
 	}
 	.bottom-menu-tab {
 		margin-bottom: 50px;
-		border-top: solid 1px lightgrey;
+		border-top: solid 1px grey;
 		Padding-top: 20px;
 		padding-left: 0px;
 	}
