@@ -72,22 +72,20 @@ a {
 	float: right;
 }
 
-
+.bottom-menu-tab {
+	display: none;
+}
 
 /* ================================= 
   Media Queries
 ==================================== */
-@media(max-width:767px) {
+	
+ 
+@media (min-width: 768px) {
 
-	.bottom-menu-tab {
-		display: none;
+	#bottom-menu-2 {
+		display: block;
 	}
-
-
-} 
-@media(max-width:1023px) and (min-width: 768px) {
-
-
 	body {
 		margin: auto;
 		width: 90%;
@@ -154,6 +152,10 @@ a {
 
 
 @media(min-width: 1024px) {
+
+	#bottom-menu-2 {
+		display: block;
+	}
 
 	body {
 		margin: auto;
