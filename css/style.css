@@ -59,8 +59,8 @@ a {
 }
 
 
-.name {
-	background-color: #ABE5F5;
+.nav{
+	background: linear-gradient(#ABE5F5, #fcfcfc);
 }
 
 .bottom-menu {
@@ -103,7 +103,7 @@ a {
 	}
 
 	.nav {
-		border-bottom: solid 2px grey;
+		border-bottom: solid 1px grey;
 		padding: 5px;
 		background-color: #ABE5F5;
 		margin-right: 0px;
@@ -144,6 +144,7 @@ a {
 	.map,
 	.photo,
 	.calculator {
+		height: 28em;
 		width: 50%;
 	}
 
@@ -226,6 +227,7 @@ a {
 	.map,
 	.photo,
 	.calculator {
+		height: 23em;
 		width: 33%;
 	}
 
