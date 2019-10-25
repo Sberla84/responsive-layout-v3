@@ -9,14 +9,15 @@
             <link rel="stylesheet" href="css/style.css">
         </head>
   <body> 
-    <header>
-        <div class="nav cf">
+    <header class="nav">
+        <div class="container cf">
             <h1 class="name">Niccolo' Vannetti</h1>
             <nav class="main-nav">
                 <ul>
                     <li class="button"><a href="#top">Home</a></li>
                     <li class="button"><a href="#portfolio">Portfolio</a></li>
                     <li class="button"><a href="#contact">Contact</a></li>
+                    <li class="button"><a href="#skill">Skill</a></li>
                 </ul>
             </nav>
         </div>
@@ -24,17 +25,20 @@
     </header>
 
  <!--         main header                -->
-
-    <div class="description cf">
+ <div class="gradient">
+    <div class="description container cf">
         <img class="profile-img" src="img/profile.png" alt="profile image">
         <p class="my-desc">Hi! I'm a front end Developer who loves reponsive design and css. I recently finished learning front-end-web development ar Treehouse and am excided to put all my skill to use!</p>
     </div>
+</div>
 
-<!--             Main description          -->
+<!--             Portfolio Section          -->
 
-    <h1 id="portfolio" >PORTFOLIO</h1>
+    
     <div class="container cf">
-        
+
+        <h1  id="portfolio" >PORTFOLIO</h1>
+
         <div class="col marketing">
                <img src="img/portfolio-1.png" alt="marketing image">
                <h2>Marketing Page</h2>
@@ -71,8 +75,33 @@
                 <p class="description_2">Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
         </div>
     </div>
+<!--             Skill Section          -->
 
 
+<div class="container cf">
+    
+    <h1 id="skill" >SKILL</h1>
+
+    <div class="col photoshop">
+           <img class="skill_img" src="img/Photoshop.png" alt="photoshop icon">
+           <h2>Photoshop</h2>
+           <p class="description_skill">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="col illustrator">
+           <img class="skill_img" src="img/illustrator.png" alt="illustrator icon">
+           <h2>Illustrator</h2>
+           <p class="description_skill">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="col ae">
+            <img class="skill_img" src="img/AE.png" alt="ae icon">
+            <h2>After Effects</h2>
+            <p class="description_skill">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+ 
+</div>
 
 		<footer>
           <div id="contact" class="contacts">
@@ -101,10 +130,11 @@
                             <li class="button-bottom"><a href="#top">Home</a></li>
                             <li class="button-bottom"><a href="#portfolio">Portfolio</a></li>
                             <li class="button-bottom"><a href="#contact">Contact</a></li>
+                            <li class="button-bottom"><a href="#skill">Skill</a></li>
                         </ul>
                     </nav>
             </div>
 
-		</footer>
+        </footer>
   </body>
 </html>

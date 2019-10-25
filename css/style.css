@@ -55,12 +55,13 @@ a {
 
 .container {
 	width: 100%;
-	overflow: auto;
+}
+.gradient {
+	background: linear-gradient(#ABE5F5, #fcfcfc);
 }
 
-
 .nav{
-	background: linear-gradient(#ABE5F5, #fcfcfc);
+	background-color: #ABE5F5;
 }
 
 .bottom-menu {
@@ -97,17 +98,9 @@ a {
 	#bottom-menu-2 {
 		display: block;
 	}
-	body {
+	.container {
 		margin: auto;
 		width: 90%;
-	}
-
-	.nav {
-		border-bottom: solid 1px grey;
-		padding: 5px;
-		background-color: #ABE5F5;
-		margin-right: 0px;
-		margin-bottom: 30px;
 	}
 	.main-nav ul {
 		text-align: center;
@@ -130,24 +123,35 @@ a {
 	.description {
 		margin-bottom: 50px;
 	}
-	.description_2 {
+	.description_2,
+	.description_3 {
 		padding: 0px 35px;
 	}
 	.col {
 		float: left;
-		padding-bottom: 50px;
+		padding-bottom: 40px;
 	}
+
+	.skill_img {
+		padding: 0 5em;
+	}
+
 
 	.marketing,
 	.search,
 	.travel,
 	.map,
 	.photo,
-	.calculator {
-		height: 28em;
+	.calculator,
+	.photoshop,
+	.illustrator,
+	.ae {
+		height: 29em;
 		width: 50%;
 	}
-
+	.ae {
+		margin-left: 25%;
+	}
 	.bottom-menu {
 		display: none;
 	}
@@ -179,18 +183,23 @@ a {
 		display: block;
 	}
 
-	body {
-		margin: auto;
+	
+	footer {
+		margin-top: 3em;
+	}
+
+	.container {
+		margin:0 auto;
 		width: 80%;
 		max-width: 1150px;
 	}
-	.nav {
-		margin: 0px 7px 30px 7px;
-	}
+
 	.name {
+		padding-left: 10px;
 		float: left;
 	}
 	.main-nav {
+		padding-right: 10px;
 		float: right;
 	}
 
@@ -211,24 +220,23 @@ a {
 		margin-bottom: 50px;
 	}
 
-	.container,
-	.contacts {
-		margin: 0 auto;
-	}
 
-	.col {
-		margin-bottom: 50px;
-		float: left;
-	}
 
 	.marketing,
 	.search,
 	.travel,
 	.map,
 	.photo,
-	.calculator {
-		height: 23em;
+	.calculator,
+	.photoshop,
+	.illustrator,
+	.ae {
+		height: 25em;
 		width: 33%;
+	}
+
+	.ae {
+		margin-left: 0;
 	}
 
 	.bottom-menu {
